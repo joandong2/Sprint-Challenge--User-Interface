@@ -94,6 +94,13 @@ nav a {
     text-align: center;;
     text-decoration: none;
     color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #bb1333;
+    transition: all .3s;
 }
 
 .banner {
@@ -151,6 +158,14 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: ease-in .3s;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -225,13 +240,12 @@ footer nav a {
     border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
-    transition: all .4s;
 }
 
 .about-page .middle-content a:hover {
     background: black;
     color: white;
-
+    transition: all .4s;
 }
 
 /**
@@ -241,10 +255,6 @@ footer nav a {
 .contact-page .top-content,
 .contact-page .text-container {
     border: unset;
-}
-
-.contact-page .top-content {
-    text-align: center;
 }
 
 .contact-page .top-content .text-container {
@@ -278,23 +288,19 @@ footer nav a {
     padding: 12px 25px;
     border-radius: 0px;
     background-color: #bb1333;
-    -webkit-transition: background-color 400ms ease, opacity 400ms ease;
-    transition: background-color 400ms ease, opacity 400ms ease;
     color: #fff;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.5px;
     text-decoration: none;
     text-transform: none;
+    transition: all .4s;
+}
+
+.contact-page .top-content input.submit:hover {
+    background: black;
 }
 
 .contact-page .form-container-flex input {
     width: 49%;
 }
-
-.contact-page .form-container:last-child {
-    text-align: left;
-}
-
-
-
