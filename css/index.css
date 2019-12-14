@@ -149,9 +149,6 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -183,4 +180,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/**
+    About Page
+**/
+
+.about-page .top-content .text-container {
+    width: 98%
+}
+
+.about-page .middle-content {
+    border: unset;
+}
+
+.about-page .middle-content {
+    border: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-page .middle-content .text-container {
+    width: 46.4%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+.about-page .middle-content img {
+    margin-bottom: 20px;
+}
+
+.about-page .middle-content p {
+    margin-bottom: 20px;
+}
+
+.about-page .middle-content a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all .4s;
+}
+
+.about-page .middle-content a:hover {
+    background: black;
+    color: white;
+
 }
